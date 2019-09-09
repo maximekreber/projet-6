@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c7fdc0763f43c869341ca711a1b3f74a",
+    "content-hash": "28144fef919b3b65bcce34641ded763a",
     "packages": [
         {
             "name": "composer/installers",
@@ -1553,6 +1553,24 @@
                 "wordpress"
             ],
             "time": "2019-01-12T19:01:37+00:00"
+        },
+        {
+            "name": "wpackagist-theme/oceanwp",
+            "version": "1.7.1",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/oceanwp/",
+                "reference": "1.7.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/oceanwp.1.7.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/oceanwp/"
         }
     ],
     "packages-dev": [],
