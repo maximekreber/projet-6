@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "28144fef919b3b65bcce34641ded763a",
+    "content-hash": "7b1e2bc9917568400c6ea6ee81616df2",
     "packages": [
         {
             "name": "composer/installers",
@@ -1553,6 +1553,24 @@
                 "wordpress"
             ],
             "time": "2019-01-12T19:01:37+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/elementor",
+            "version": "2.7.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/elementor/",
+                "reference": "tags/2.7.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/elementor.2.7.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/elementor/"
         },
         {
             "name": "wpackagist-theme/oceanwp",
